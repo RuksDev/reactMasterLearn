@@ -1,0 +1,131 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Noto+Sans+Mono:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./main.js"></script>
+    <title>Document</title>
+  </head>
+  <body class="body">
+    <div class="titles">
+      <h1 class="main_title">React.js Master Course</h1>
+      <p class="sub_title">Learn the basics and build advanced projects</p>
+    </div>
+
+    <div class="container">
+      <div class="desc">
+        <p>
+          React.js is a powerful JavaScript library developed by Facebook for
+          building dynamic and interactive user interfaces, particularly
+          single-page applications (SPAs). It follows a component-based
+          architecture, allowing developers to create reusable UI elements,
+          making development more efficient and maintainable. React utilizes a
+          virtual DOM for optimized rendering, ensuring better performance. It
+          also supports state management through hooks like useState and
+          useEffect, and can be integrated with libraries like Redux for complex
+          state handling.
+        </p>
+        <div>
+          <h4>Key Features of React.js:</h4>
+          <ul>
+            <li>
+              Component-Based Architecture - UI is broken into reusable
+              components.
+            </li>
+            <li>Virtual DOM - Efficient updates and better performance.</li>
+            <li>Declarative UI - Easy-to-read and maintainable code.</li>
+            <li>
+              State Management - Uses useState, useEffect, and external
+              libraries like Redux or Zustand.
+            </li>
+            <li>
+              Hooks - Functional components with state and lifecycle management.
+            </li>
+          </ul>
+        </div>
+        <p>
+          Next.js, built on top of React, is a popular framework designed to
+          enhance React applications with features like server-side rendering
+          (SSR) and static site generation (SSG), improving SEO and performance.
+          It provides automatic code splitting, optimized image handling, and
+          built-in API routes, making full-stack development easier. With its
+          file-based routing system, Next.js simplifies navigation and improves
+          scalability. While React is ideal for highly interactive SPAs, Next.js
+          is the preferred choice for SEO-friendly and high-performance web
+          applications, such as blogs, e-commerce sites, and enterprise-level
+          dashboards.
+        </p>
+        <div>
+          <h4>Key Features Of Next.js:</h4>
+          <ul>
+            <li>
+              Server-Side Rendering (SSR) - Pre-render React components on the
+              server and send the static HTML to the client.
+            </li>
+            <li>
+              Static Site Generation (SSG) - Generate static HTML pages during
+              build time, reducing server load and improving SEO.
+            </li>
+            <li>
+              Automatic Code Splitting - Split code into smaller chunks based on
+              routes, reducing initial bundle size and improving performance.
+            </li>
+            <li>
+              Image Optimization - Optimize images using tools like Sharp,
+              Next/Image, and Next/Resize.
+            </li>
+            <li>
+              API Routes - Create RESTful API endpoints using Next.js's built-in
+              API routes.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- inline css -->
+    <div style="display: flex; flex-direction: column">
+      <table
+        cellspacing="0"
+        cellpadding="10"
+        border="1"
+        style="border-collapse: collapse; width: 100%; text-align: left; font-weight: 500; background-color: #3a3a3a; color: whitesmoke;"
+      >
+        <thead style="text-align: center;">
+          <tr>
+            <th>Feature</th>
+            <th>React.js</th>
+            <th>Next.js</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Rendering</td>
+            <td>Client side (CSR) </td>
+            <td>Server-side (SSR) & Static (SSG)</td>
+          </tr>
+          <tr>
+            <td>SEO-Friendly</td>
+            <td>No (Requires extra step)</td>
+            <td>Yes (Build-in)</td>
+          </tr>
+          <tr>
+            <td>Performance</td>
+            <td>Good</td>
+            <td>Faster (Pre rendering & optimization)</td>
+          </tr>
+          <tr>
+            <td>Routing</td>
+            <td>Manuel (React Router)</td>
+            <td>File-based (Automatic)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
